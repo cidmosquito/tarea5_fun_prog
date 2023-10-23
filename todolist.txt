@@ -1,0 +1,26 @@
+FUNDAMENTOSDE PROGRAMACIÓN
+TAREA 5  PARA ENTREGAR EL LUNES 23 DE OCTUBRE.
+ELABORAR LOS SIGUIENTES PROGRAMAS. ENTREGARLOS CON ANÁLISIS, PROGRMA Y COMPILACIÓN.
+Utilizar arreglos y poner mensajes de lo que se está mostrando.
+
+1.- Leer 20 números en el rango de 40 a 90. Mostrar el arreglo en forma horizontal, así como el promedio.
+2.- Leer 20 calificaciones. Mostrar las calificaciones, así como el promedio de las aprobadas y de las no caprobadas.
+3.- Mostrar el resultado de la velocidad, tomar en cuenta todas las validaciones.
+4.- Mostrar los valores de la siguiente ecuación:
+      y=coseno(x)+5     donde x inicia en 5, con incrementos de 1.5 y valor final de x de 30.
+5.- Leer 25 números. Mostrar los números, así como los números que se encuentren en las posiciones pares.
+6.- Leer N calificaciones. Mostrar las calificaciones, en otros dos arreglos almacenar en uno las aprobadas y en el otro las no aprobadas. Mostrar los tres arreglos.
+7.- Leer 35 números. Mostrar los números y en otros dos arreglos almacenar en uno los números pares y en el otro los impares.
+
+
+TAREA 6  PARA ENTREGAR EL LUNES 30 DE OCTUBRE.
+ELABORAR LOS SIGUIENTES PROGRAMAS. ENTREGARLOS CON ANÁLISIS, PROGRMA Y COMPILACIÓN.
+Utilizar arreglos y poner mensajes de lo que se está mostrando. Todos los ejercicios son de arreglos de 2 dimensiones se debe mostrar en forma de matriz.
+
+1.- Leer números y almacenarlos en un arreglo de 3x4, solicitar otro número Mostrar el arreglo y cuantas veces se encontró el número.
+2.- Leer 20 calificaciones y almacenarlos en un arreglo de 2 dimensiones. Mostrar el arreglo y el promedio.
+3.- Leer calificaciones y almacenarlas en un arreglo de 4x3. Mostrar el arreglo y cuantas calificaciones son aprobadas.
+4.- Leer números y almacenarlos en un arreglo de 5x4. Mostrar el arreglo, mostrar los números pares y el promedio.
+5.- Leer 25 números y almacenarlos en un arreglo. Mostrar el arreglo y la suma de la diagonal principal.
+6.- Leer 20 números en un rango de 20 a 70 y almacenarlo en un arreglo. Mostrar el arreglo.
+7.- Leer un arreglo de NxM de números pares. Mostrar el arreglo y el promedio.
