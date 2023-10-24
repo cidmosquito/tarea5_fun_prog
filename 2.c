@@ -3,11 +3,11 @@
 //así como el promedio de las aprobadas y de las no aprobadas.
 #include <stdio.h>
 int a, con_a, con_na;
-float num[20], aprob, n_aprob, prom;
+float num[21], aprob, n_aprob, prom;
 int main(void){
     printf("Ingrese 20 calificaciones\n");
-    for(a=0; a<20; a++){
-        printf("Ingrese una calificación:\n");
+    for(a=0; a<21; a++){
+        printf("Ingrese una calificación:\t");
         scanf("%f", &num[a]);
         while (num[a]<0.0 || num[a]>10.0)
         {
@@ -23,13 +23,21 @@ int main(void){
         }
         }
     printf("Calificaciones: \n");
-    for(a=0; a<20; a++){
+    for(a=0; a<21; a++){
         printf("%d: %.2f. ", a,num[a]);
     }
-    prom=aprob/con_a;
-    printf("\nEl promedio de las aprobadas es: \t%.2f.", prom );
-    prom=aprob/con_na;
+    if (con_a > 0) {
+        prom=aprob/con_a;
+        printf("\nEl promedio de las aprobadas es: \t%.2f.", prom );
+    } else {
+        printf("\nNo hubo calificaciones aprobadas\n");
+    }
+
+    if (con_na > 0) {
+        prom=aprob/con_na;
     printf("\nEl promedio de las no aprobadas es: \t%2.f.", prom);
+    } else {
+        printf("\nNo hubo calificaciones reprobadas\n");
+    }
     return 0;
-    
 }
