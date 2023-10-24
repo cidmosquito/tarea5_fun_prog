@@ -3,6 +3,7 @@
 
 #include<stdio.h>
 int num[35], par[35], impar[35], a, con_p, con_imp;
+int i, j, t;
 int main(){
     printf("Este programa leerá 35 números y almacenará de forma separada los pares e impares.\n");
     printf("Ingresa un número:\n");
@@ -17,13 +18,31 @@ int main(){
             con_imp++;
         }
     }
+    for (i=0; i<4; i++){
+            for(j=i+1; i<4; i++){
+                    if(par[j]>par[i]){
+                        t=par[i];
+                        par[i]=par[j];
+                        par[j]=t;
+                    }
+                }
+            }
+    for (i=0; i<4; i++){
+                for(j=i+1; i<4; i++){
+                        if(impar[j]>impar[i]){
+                            t=impar[i];
+                            impar[i]=impar[j];
+                            impar[j]=t;
+                        }
+                    }
+                }
     printf("\nLos números ingresados son:\t");
     for(a=0;a<4;a++){
         printf("%d ", num[a]);
     }
     if(con_p>0){
         printf("\nLos pares fueron:\t");
-        for(a=0;a<4;a++){
+        for(a=0;a<con_p+1;a++){
             printf("%d ", par[a]);
         }
     } else {
@@ -31,7 +50,7 @@ int main(){
     }
     if(con_imp>0){
         printf("\nLos impares fueron:\t");
-        for(a=0;a<4;a++){
+        for(a=0;a<con_imp+1;a++){
             printf("%d ", impar[a]);
         }
     } else {
